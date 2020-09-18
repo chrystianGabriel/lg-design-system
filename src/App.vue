@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import Home from './page/Home/Home';
+import Home from './views/Home/Home';
 export default {
   name: 'App',
   components: {

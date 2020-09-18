@@ -9,7 +9,7 @@
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 9001 -c .storybook -s public",
     "storybook:build": "build-storybook -c .storybook -o .out -s public"
-  },
+  }, 
   "dependencies": {
     "core-js": "^3.6.5",
     "primeicons": "^4.0.0",
