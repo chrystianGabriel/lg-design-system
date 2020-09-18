@@ -1,19 +1,12 @@
 <template>
   <div>
-    <div class="lg-aa-layout__conteudo">
-      <div class="lg-aa-layout__conteudo__main">
-        <Home/>
-      </div>
-    </div>
-
-    <footer class="lg-aa-layout__rodape">
-      <div class="lg-aa-layout__rodape__logo"></div>
-      <div class="lg-aa-layout__rodape__copyright"></div>
-    </footer>
+    <lg-aa-template-padrao>
+      <Home/>
+    </lg-aa-template-padrao>
   </div>
 </template>
-
 <script>
+
 import Home from './views/Home/Home';
 export default {
   name: 'App',
