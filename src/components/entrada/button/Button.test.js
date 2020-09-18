@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import { Button } from './Button.vue';
+import Button from './Button.vue';
 
 test('lg-aa-botao - Teste de texto', () => {
     const componente = shallowMount(Button);

@@ -1,5 +1,10 @@
 module.exports = {
+  verbose: true,
   preset: '@vue/cli-plugin-unit-jest',
-  testMatch: ['**/components/**/*.test.js'],
-  transformIgnorePatterns: ['/node_modules/']
+  moduleFileExtensions: ["js", "json", "vue"],
+  testMatch: ['**/components/**/*.test.js','**/components/**/*.spec.js', '**/tests/unit/*'],
+  transformIgnorePatterns: ["node_modules/(?!(primevue)/)"],
+  transform: {
+  }
 }
+
